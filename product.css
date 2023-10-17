@@ -1,0 +1,98 @@
+#products{
+    display: flex;
+}
+
+#topmenu >span{
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+#collection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+#collection >div{
+ 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+}
+
+.avatar{
+    height: 200px;
+    width: 150px;
+}
+
+.innerbox{
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+    width: 200px;
+}
+
+.filter-group h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #2874f0;
+}
+
+.filter-group ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-group ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #333;
+}
+
+.filter-group ul li:hover {
+    color: #ff6600;
+}
+
+.filter{
+    padding: 24px;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+.filter img {
+    width: 100px; 
+    height: 20px; 
+}
+
+.container{
+    width: 50px;
+    height: 300px;
+    background: white;
+}
+
+.fil{
+    padding: 24px;
+    border-bottom: 1px solid gray;
+    font-size: 22px;
+}
+
+img{
+    font-size: 10px;
+}

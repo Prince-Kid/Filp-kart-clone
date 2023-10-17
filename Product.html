@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./product.css" />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="container"></div>
+   
+
+    <section id="products">
+      <div class="container" style="width: 25%; height: 100%;background: white;margin-right: 12px;font-size: 10px;">
+        <p class="fil">Filters</p>
+        <section>
+          <div style="font-size: 14px;padding: 12px;font-weight: bold;">CATEGORIES</div>
+          <div style="font-size:14px;padding: 8px;">Clothing and Accessories</div>
+          <div style="font-size: 14px;padding: 8px;">Tracksuits</div>
+          <div style="font-size: 14px;padding: 8px;font-weight: bold;">Men's Tracksuits</div>
+         <div class="filter"></div>
+         <div class="filter">GENDER</div>
+         <div class="image"></div>
+         <div class="filter"><input type="checkbox">
+        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="">
+        <span class="question" style="border: 2px solid gray;border-radius: 50%;display: flex;justify-content: space-around;width: 13px;margin-left: 80%;margin-top: -20px;">?</span></div>
+        <div class="filter" style="display: flex;justify-content: space-around;">DISCOUNT
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">SIZE
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">PATTERN
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">BRAND
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">COLOR
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">FABRIC
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">OFFERS
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">THEME
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">TYPE
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="filter" style="display: flex;justify-content: space-around;">AVAILABILITY 
+          <select name="" id="">
+            <option value=""></option>
+          </select>
+        </div>
+         
+        </section>
+        
+      </div>
+      <div style="width: 75%;">
+        <div style="display: flex;" id="topmenu">
+          <span> Sort By </span>
+          <span> Popularity </span>
+          <span> Price -- Low to High </span>
+          <span> Price -- High to Low </span>
+        </div>
+        <div id="collection"></div>
+      </div>
+      
+    </section>
+
+    <section id="footer">
+      <div>
+        <li class="heading">About</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">Help</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">CONUSMER POLICY</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">Social</li>
+        <li>Instagram</li>
+        <li>LinkedIn</li>
+        <li>Facebook</li>
+        <li>X</li>
+      </div>
+      <div>
+        <li class="heading">Address</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">Contact us</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+    </section>
+  </body>
+</html>
+<script>
+  $(function () {
+    $("#container").load("./Navabar.html");
+  });
+</script>
+<script src="./Product.js"></script>
